@@ -1,0 +1,14 @@
+html, body{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+:before, :after{
+    display:inline-block;
+    content:'';
+    position:absolute;
+}

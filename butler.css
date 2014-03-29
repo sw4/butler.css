@@ -15,19 +15,14 @@ a{
     text-decoration:none;
     color:inherit
 }
-:hover{
-    color:inherit
-}
-:link, :visited {
-    text-decoration: none
-}
-:focus { 
+:link, :visited, :focus, :hover {
+    color:inherit;
+    text-decoration: none;
     outline: none
 }
 :before, :after{
     display:inline-block;
-    content:'';
-    position:absolute
+    content:''
 }
 input, textarea, button{
     vertical-align:middle

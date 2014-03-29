@@ -2,23 +2,33 @@ html, body{
     height:100%;
     width:100%;
     position:relative;
+    font-family:arial, sans-serif
 }
 ul{
-    list-style:none;
+    list-style:none
 }
 html, body, li{
     margin:0;
-    padding:0;
+    padding:0
 }
 a{
     text-decoration:none;
-    color:inherit;
+    color:inherit
 }
-a:hover{
-    color:inherit;
+:hover{
+    color:inherit
+}
+:link, :visited {
+    text-decoration: none
+}
+:focus { 
+    outline: none
 }
 :before, :after{
     display:inline-block;
     content:'';
-    position:absolute;
+    position:absolute
+}
+input, textarea, button{
+    vertical-align:middle
 }
